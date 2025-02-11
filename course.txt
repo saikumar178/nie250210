@@ -1,0 +1,58 @@
+01. bootstrap design
+
+02. react app design 
+       - react   -frontend app development framework + package of node.js + UI(presentation).
+           -components
+               -state
+               -props
+
+               -u1
+                   -from control
+                   -data binding
+                   -event binding
+            -router
+                 -navigate
+                 -paras
+        -where react app is developed?
+           -server side js --node js
+        -where react app is used?
+           -client side(browser).
+                 -translation of server side js code base into client side code base.
+
+
+        -full stack
+          [client][business/application layer][data]
+                  ..................................
+                              [server]
+
+            --------------------------------------------
+            to creatr react application named 'client'
+            $ npx create-react-app client
+            OR
+            $ npm create vite@latest client -- --template react
+
+            To create react application under current folder named 'client'
+            $npm create vite@latest . -- --templete react
+--------------------------------------------------------------
+index.html
+      bootstrap css+js
+main.jsx
+      //index.css
+app.jsx
+      route(navigation) bt PageList,      PageCreate,        PageEdit
+                           /flight/list   /flights/create    /flights/edit/:index
+                           <PageHeader/>    <PageHeader/>      <PageHeader/> 
+
+src/header/
+       PageHeader.jsx
+src/flights/
+      PageCreate.jsx
+      PageEdit.jsx
+      PageList.jsx
+to install react-router-dom for navigation between components
+
+D:\My_Work\nie250210\ars\02client_design\client>npm install react-router-dom
+
+
+
+id,category,type,price,sugar_level
