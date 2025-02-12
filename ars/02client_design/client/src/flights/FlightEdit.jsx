@@ -3,6 +3,7 @@ import PageHeader from "../header/PageHeader";
 function FlightEdit() {
     return (
       <>
+      <PageHeader/>
         <h3>
           <a href="/flights/list" className="btn btn-light">Go back</a>
           Edit Flight Ticket Price

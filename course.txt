@@ -56,3 +56,24 @@ D:\My_Work\nie250210\ars\02client_design\client>npm install react-router-dom
 
 
 id,category,type,price,sugar_level
+----------------------------------------------------------------------------
+01bs 
+    client  !bootstrap based html files
+02app_design
+    client   !react based app design
+03app_mongoless
+     client 
+     server   go lang| backend |RESTful API:https based web service.
+     ------------------------------------------------------------------------
+management
+  !CRUD oper    method      UPL      base server url:http://localhost:8080
+                verb        noun
+  Create car    POST        /cars          {"no":"??","model":"??","type":"??"}  //body of API
+  Read ALL      GET         /cars
+  Read by id    GET         /cars/:id
+  Update        UPDATE      /cars/:id      {"no":"??","model":"??","type":"??"}
+  Delete        DELETE      /cars/:id --------------------------------------------------------------------------------
+
+===GO===
+     create module--->   go mod init sai.com/main
+     run the code---->   go run main.go
