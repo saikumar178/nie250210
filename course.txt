@@ -29,10 +29,22 @@
             to creatr react application named 'client'
             $ npx create-react-app client
             OR
-            $ npm create vite@latest client -- --template react
+            $ npm create vite@latest client -- --template react        //initializer for project
+
+            $ cd client
+            $ npm install
+            $ npm run dev
+               open the link..(local host)
+               To stop->  ctrl-C
+               open in VS
+            $ npm run dev
 
             To create react application under current folder named 'client'
-            $npm create vite@latest . -- --templete react
+            $ npm create vite@latest . -- --templete react
+
+            npm install react-router-dom
+            !downloads and installs the package "react-router-dom"
+
 --------------------------------------------------------------
 index.html
       bootstrap css+js
@@ -77,3 +89,15 @@ management
 ===GO===
      create module--->   go mod init sai.com/main
      run the code---->   go run main.go
+
+------------------------------------------------------------------------------------------------------------------------
+
+start to write full stack application
+-copy the client application design folder     -from(02client_design)
+assumption == server is running in sever folder
+       $go run main.go
+-now we have the client folder 
+      $ npm install
+      $ npm install axios
+      Note: axios is client library to do the backend api call
+      $ npm run dev

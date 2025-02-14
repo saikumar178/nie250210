@@ -4,8 +4,7 @@ import FlightList from "./flights/FlightList";
 import FlightCreate from "./flights/FlightCreate";
 import FlightEdit from "./flights/FlightEdit";
 import PageHeader from './header/PageHeader';  
-import Counter from "../counter";
-import FullName from "./FullName";
+
 
 function App() {
   const [pageNumber, setPageNumber] = useState(1);
@@ -21,10 +20,7 @@ function App() {
           </Routes>
         </BrowserRouter>
     </div>
-    <Counter/>
-    <div>
-      <FullName/>
-    </div>
+ 
     </>
   );
 }
